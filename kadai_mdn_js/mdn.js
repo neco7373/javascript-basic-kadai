@@ -1,9 +1,9 @@
 
-const date = new Date("2024-12-11");
+const today = new Date("2024-12-11");
 const [month, day, year] = [
-  date.getMonth() +1,
-  date.getDate(),
-  date.getFullYear(),
+  today.getMonth() +1,
+  today.getDate(),
+  today.getFullYear(),
 ];
 // [11, 12, 2024] （月は 0 基点であるため）
 
